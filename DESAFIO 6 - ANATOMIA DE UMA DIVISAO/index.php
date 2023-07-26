@@ -26,7 +26,7 @@
             $resDiv =($dividendo / $divisor);
             $resto = $dividendo % $divisor;
 
-            echo "<table><tr><td style='border-right:solid'>$dividendo</td><td style='border-bottom:solid'>$divisor</td></tr>";
+            echo "<table class='divisao'><tr><td>$dividendo</td><td>$divisor</td></tr>";
 
             echo "<tr><td>$resto</td><td>".(int)$resDiv."</td></tr></table>";
        ?>
