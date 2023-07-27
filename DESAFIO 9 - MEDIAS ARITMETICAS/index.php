@@ -30,7 +30,7 @@
             $peso1 = $_GET["p1"] ?? 1;
             $peso2 = $_GET["p2"] ?? 1;
 
-            $mediaAritmSimples = $valor1 + $valor2 / 2;
+            $mediaAritmSimples = ($valor1 + $valor2) / 2;
             $mediaAritmPondera = (($valor1 * $peso1) + ($valor2 * $peso2)) / ($peso1 + $peso2);
 
             echo "A média aritmética simples é <strong>".number_format($mediaAritmSimples, 2, ",", ".")."</strong>.\n";
